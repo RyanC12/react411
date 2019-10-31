@@ -1,9 +1,14 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+
+import Api from "./Components/api";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <h1 style={{ textAlign: "center" }}>Meet Local Singles</h1>
+      <Api />
+    </div>
+  );
 }
 
 export default App;
